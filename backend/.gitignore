@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Environment Variables (SENSITIVE)
+.env
+.env.local
+.env.development.local
+
+# Database (SENSITIVE)
+# Do not commit the local PouchDB instance to GitHub as it contains local data
+ads_db/
+
+# Uploads (SENSITIVE / BLOAT)
+# Do not commit user-uploaded ad graphics or videos to the repository
+uploads/*
+!uploads/.gitkeep
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

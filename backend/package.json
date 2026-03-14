@@ -1,0 +1,24 @@
+{
+  "name": "advista-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "AdVista Backend Service",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "form-data": "^4.0.5",
+    "multer": "^2.1.1",
+    "node-fetch": "^3.3.2",
+    "pouchdb": "^9.0.0",
+    "socket.io": "^4.8.3",
+    "uuid": "^13.0.0"
+  }
+}

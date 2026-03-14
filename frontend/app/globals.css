@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #0a0a0a;
+  --color-foreground: #ededed;
+  --color-accent: #00f0ff;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevent scrolling on billboard */
+  }
+}
+
+/* Base tailwind utilities for the grid */
+@layer utilities {
+  .billboard-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 100vw;
+    height: 100vh;
+    gap: 0px; /* Seamless by default */
+    background: #000;
+  }
+}
