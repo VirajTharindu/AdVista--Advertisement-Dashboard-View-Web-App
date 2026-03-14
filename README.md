@@ -59,6 +59,8 @@ If deeper technical access is required, it can be provided upon request.
 
 # 📸 Screenshots
 
+![AdVista Dashboard - The high-fidelity 6-slot billboard interface.](docs/screenshots/Ad-Dashboard-View.png)
+
 <p align="center">
   <img src="docs/screenshots/Ad-Dashboard-View.png" alt="AdVista Dashboard - The high-fidelity 6-slot billboard interface." width="100%" />
 </p>
